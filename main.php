@@ -21,14 +21,12 @@
 
     $myage = $_POST['value'];
 
-    if (intval($myage) >= 16){
-        echo "You are allowed to buy <strong>SPECS</strong>";
-    }else if(intval($myage) >= 18){
-        echo "You are allowed to buy <strong>MUGS</strong>";
-    }else if(intval($myage) >= 21){
+    if(intval($myage) >= 21){
         echo "You are allowed to buy <strong>SAUSAGE ROLLS</strong>";
-    }else{
-        echo "You're not allowed to buy anything yet!";
+    }else if (intval($myage) >= 18){
+        echo "You are allowed to buy <strong>MUGS</strong>";
+    }else if(intval($myage) >= 16){
+        echo "You are allowed to buy <strong>SPECS</strong>";
     }
     ?>
 </body>
