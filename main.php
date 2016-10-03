@@ -118,5 +118,18 @@
         }
         ?>
     </div>
+
+    <!-- EXERCISE 4 -->
+    <div style="text-align: center; border: 1px solid black; border-radius: 10px; margin-bottom: 20px;">
+        <?php
+            // Exercise 4
+
+            $provisionedActivity = array("Specs", "Drugs", "Rock&Roll");
+
+            foreach ($provisionedActivity as $x){
+                echo "<p>$x</p>";
+            }
+        ?>
+    </div>
 </body>
 </html>
