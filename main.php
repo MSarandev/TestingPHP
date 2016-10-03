@@ -17,7 +17,7 @@
     <h1 style='text-align: center; text-decoration: underline;'>Exercises Below</h1>
     <br>
     <!-- EXERSICE 1 -->
-    <div style="text-align: center; border: 1px solid black; border-radius: 50px;">
+    <div style="text-align: center; border: 1px solid black; border-radius: 50px; margin-bottom: 20px;">
     <form method="post" action="">
         <h3>Enter you age below</h3>
         <input type="text" name="value">
@@ -26,7 +26,7 @@
     </div>
     <br>
     <!-- EXERSICE 2 -->
-    <div style="text-align: center; border: 1px solid black; border-radius: 50px;">
+    <div style="text-align: center; border: 1px solid black; border-radius: 50px; margin-bottom: 20px;">
         <form method="post" action="">
             <h3>Enter the number of hobbits</h3>
             <input type="text" name="hobbitsVal">
@@ -56,18 +56,20 @@
 
     $numberOfHobbits = $_POST['hobbitsVal'];
 
-    switch($numberOfHobbits){
-        case 1:
-            echo "<strong>$numberOfHobbits</strong> Sad Hobbit";
-            break;
-        case 2:
-            echo "<strong>$numberOfHobbits</strong> Happy Hobbit";
-            break;
-        case 3:
-            echo "<strong>$numberOfHobbits</strong> Hobbits are a crowd";
-            break;
-        default:
-            echo "All Hobbits have gone home!";
+    if($numberOfHobbits != null) {
+        switch ($numberOfHobbits) {
+            case 1:
+                echo "<strong>$numberOfHobbits</strong> Sad Hobbit";
+                break;
+            case 2:
+                echo "<strong>$numberOfHobbits</strong> Happy Hobbit";
+                break;
+            case 3:
+                echo "<strong>$numberOfHobbits</strong> Hobbits are a crowd";
+                break;
+            default:
+                echo "All Hobbits have gone home!";
+        }
     }
     ?>
 </body>
