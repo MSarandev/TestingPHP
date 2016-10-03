@@ -92,13 +92,13 @@
         if($reverseNum != null) {
             switch (strtolower($reverseNum)) {
                 case "specs":
-                    echo "You must be at least<strong>16</strong>";
+                    echo "You must be at least <strong>16</strong>";
                     break;
                 case "mugs":
-                    echo "You must be at least<strong>18</strong>";
+                    echo "You must be at least <strong>18</strong>";
                     break;
                 case "sausage rolls":
-                    echo "You must be at least<strong>21</strong>";
+                    echo "You must be at least <strong>21</strong>";
                     break;
                 default:
                     echo "Whoops, your age is not in the database";
