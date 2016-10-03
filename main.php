@@ -17,7 +17,7 @@
     <h1 style='text-align: center; text-decoration: underline;'>Exercises Below</h1>
     <br>
     <!-- EXERSICE 1 -->
-    <div style="text-align: center; border: 1px solid black; border-radius: 50px; margin-bottom: 20px;">
+    <div style="text-align: center; border: 1px solid black; border-radius: 10px; margin-bottom: 20px;">
     <form method="post" action="">
         <h3>Enter you age below</h3>
         <input type="text" name="value">
@@ -26,7 +26,7 @@
     </div>
     <br>
     <!-- EXERSICE 2 -->
-    <div style="text-align: center; border: 1px solid black; border-radius: 50px; margin-bottom: 20px;">
+    <div style="text-align: center; border: 1px solid black; border-radius: 10px; margin-bottom: 20px;">
         <form method="post" action="">
             <h3>Enter the number of hobbits</h3>
             <input type="text" name="hobbitsVal">
