@@ -33,12 +33,16 @@
 
             if (intval($myage) >= 21) {
                 echo "You are allowed to buy <strong>SAUSAGE ROLLS</strong>";
+                echo "<br>";
             } else if (intval($myage) >= 18) {
                 echo "You are allowed to buy <strong>MUGS</strong>";
+                echo "<br>";
             } else if (intval($myage) >= 16) {
                 echo "You are allowed to buy <strong>SPECS</strong>";
+                echo "<br>";
             } else {
                 echo "You are not allowed to buy anything";
+                echo "<br>";
             }
 
         }
@@ -62,15 +66,19 @@
             switch ($numberOfHobbits) {
                 case 1:
                     echo "<strong>$numberOfHobbits</strong> Sad Hobbit";
+                    echo "<br>";
                     break;
                 case 2:
                     echo "<strong>$numberOfHobbits</strong> Happy Hobbit";
+                    echo "<br>";
                     break;
                 case 3:
                     echo "<strong>$numberOfHobbits</strong> Hobbits are a crowd";
+                    echo "<br>";
                     break;
                 default:
                     echo "All Hobbits have gone home!";
+                    echo "<br>";
             }
         }
         ?>
@@ -93,15 +101,19 @@
             switch (strtolower($reverseNum)) {
                 case "specs":
                     echo "You must be at least <strong>16</strong>";
+                    echo "<br>";
                     break;
                 case "mugs":
                     echo "You must be at least <strong>18</strong>";
+                    echo "<br>";
                     break;
                 case "sausage rolls":
                     echo "You must be at least <strong>21</strong>";
+                    echo "<br>";
                     break;
                 default:
                     echo "Whoops, your age is not in the database";
+                    echo "<br>";
             }
         }
         ?>
