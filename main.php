@@ -5,7 +5,7 @@
     <title>Lab1 Page</title>
 </head>
 <body>
-    <a href="index.html">
+    <a href="index.html" style="text-align: center;">
         <img src="http://www.iconarchive.com/download/i85581/graphicloads/100-flat/home.ico"
              width="100"
              height="100"/>
