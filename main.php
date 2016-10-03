@@ -27,6 +27,8 @@
         echo "You are allowed to buy <strong>MUGS</strong>";
     }else if(intval($myage) >= 16){
         echo "You are allowed to buy <strong>SPECS</strong>";
+    }else{
+        return null;
     }
     ?>
 </body>
