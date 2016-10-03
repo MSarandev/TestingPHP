@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Lab1 Page</title>
+</head>
+<body>
+    <a href="index.html">
+        <img src="http://www.iconarchive.com/download/i85581/graphicloads/100-flat/home.ico"
+             width="100"
+             height="100"/>
+    </a>
     <h1 style='text-align: center;'>Hello World - PHP</h1>
     <br>
     <h1 style='text-align: center; text-decoration: underline;'>Exercises Below</h1>
@@ -14,8 +21,6 @@
         <input type="submit">
     </form>
     <br>
-</head>
-<body>
     <?php
     // Exercise 1
 
