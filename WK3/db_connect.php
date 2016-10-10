@@ -14,4 +14,11 @@ define('DB_PASS', 'c0fcd14a');
 define('DB_DB1', 'ms8080');
 
 $db_conn = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_DB1);
-?>
+
+// test if connection was established, and print any errors
+if($db_conn->connect_errno){
+    die('<p>CONNECT FAILED -> '.$db_conn->connect_error);
+}else{
+    print('<p>Connection Established</p>');
+}
+?> 
