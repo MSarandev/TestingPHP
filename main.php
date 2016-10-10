@@ -120,7 +120,7 @@
     </div>
 
     <!-- EXERCISE 4 -->
-    <div style="text-align: center; border: 1px solid black; border-radius: 10px; margin-bottom: 20px;">
+    <div style="text-align: center; border: 1px solid black; border-radius: 10px; margin-bottom: 20px;" >
         <?php
             // Exercise 4
 
