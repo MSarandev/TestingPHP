@@ -3,23 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Setting up phpStorm</title>
+    <style>
+        .parallax {
+            /* The image used */
+            background-image: url("http://file.mrbool.com/mrbool/articles/RicardoArrigoni/Parallax/Parallax1.jpg");
+
+            /* Set a specific height */
+            height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #menu_div{
+
+        }
+    </style>
 </head>
 <body>
-<div style="text-align: center; border: 1px solid black; border-radius: 20px;">
-    <h1>Branch 1</h1>
-    <img src="https://d3nmt5vlzunoa1.cloudfront.net/phpstorm/files/2015/12/PhpStorm_400x400_Twitter_logo_white.png"
-         width="50"
-         height="50"/>
-    <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
-         width="50"
-         height="50"/>
-</div>
-<br>
-<div>
-    <p><strong>Access PHP files</strong></p>
-    <ul>
-        <li><a href="main.php">Week 2 - Lab 1 </a></li>
-    </ul>
+<!-- Container element -->
+<div class="parallax">
+    <div style="text-align: center; border: 1px solid black; border-radius: 20px;">
+        <h1 style="color:white;">Branch 1</h1>
+        <img src="https://d3nmt5vlzunoa1.cloudfront.net/phpstorm/files/2015/12/PhpStorm_400x400_Twitter_logo_white.png"
+             width="50"
+             height="50"/>
+        <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
+             width="50"
+             height="50"/>
+    </div>
+    <!-- MENU -->
+    <div id="menu_div">
+        <p><strong>Access PHP files</strong></p>
+        <ul>
+            <li><a href="main.php">Week 2 - Lab 1 </a></li>
+            <li><a href="wk3.php">Week 3 - Lab 1 </a></li>
+        </ul>
+    </div>
 </div>
 </body>
 </html>
