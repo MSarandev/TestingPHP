@@ -28,7 +28,7 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
     $res = mysqli_query($db_conn, $sql_query);
     var_dump($res);
     // Fetch the result
-    $row = mysql_fetch_row($res, MYSQLI_ASSOC);
+    $row = mysqli_fetch_row($res, MYSQLI_ASSOC);
     print($row);
     ?>
 </div>
