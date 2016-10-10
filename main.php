@@ -105,7 +105,7 @@
                     break;
                 case "mugs":
                     echo "You must be at least <strong>18</strong>";
-                    echo "<br>";
+                    echo "</br>";
                     break;
                 case "sausage rolls":
                     echo "You must be at least <strong>21</strong>";
