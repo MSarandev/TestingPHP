@@ -7,7 +7,7 @@
 <body>
 <?php
 //DEBUG HEADER
-print('<p>ERRORS</p>');
+print('<p>ERRORS (if any):</p>');
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -19,6 +19,7 @@ print('<hr>');
  * Date: 10/10/2016
  * Time: 14:02
  */
+print('<strong>Server Conn. Stat.</strong>');
 include("db_connect.php"); // INCLUDE THE CONNECTION FILE
 ?>
 <hr>
@@ -31,8 +32,8 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
     // Run the sql on the DB
     $res = mysqli_query($db_conn, $sql_query);
     // Fetch the result
-    $row = mysqli_fetch_array($res, MYSQLI_ASSOC);
-    print($row);
+    //$row = mysqli_fetch_array($res, MYSQLI_ASSOC);
+    print($res);
     ?>
 </div>
 </body>
