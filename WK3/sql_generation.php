@@ -6,9 +6,11 @@
 </head>
 <body>
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+//DEBUG HEADER
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1);
+//error_reporting(E_ALL);
+//-----------------------
 /**
  * Created by PhpStorm.
  * User: 1406519
@@ -29,6 +31,7 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
     var_dump($res);
     // Fetch the result
     $row = mysqli_fetch_array($res, MYSQLI_ASSOC);
+    print($row);
     ?>
 </div>
 </body>
