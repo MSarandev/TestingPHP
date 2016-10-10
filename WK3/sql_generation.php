@@ -13,14 +13,19 @@
  * Time: 14:02
  */
 include("db_connect.php"); // INCLUDE THE CONNECTION FILE
-
-// Check for connection issues
-if($db_conn->connect_error){
-    die('CONNECTION FAILED ->'.$db_conn->connect_error);
-}else{
-    print('<p>Connection Established</p>');
-}
-
 ?>
+<hr>
+<div>
+    <?php
+    // GENERATE SQL QUERIES
+    print('<p>Query 1</p>');
+    // Create the SQL query
+    $sql_query = "SELECT * FROM marvelmovies";
+    // Run the sql on the DB
+    $res = mysqli_query($db_conn, $sql_query);
+    // Fetch the result
+    $row = mysql_fetch_row($res, MYSQLI_ASSOC);
+    ?>
+</div>
 </body>
 </html>
