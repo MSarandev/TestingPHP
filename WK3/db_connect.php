@@ -17,8 +17,8 @@ $db_conn = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_DB1);
 
 // test if connection was established, and print any errors
 if($db_conn->connect_errno){
-    die('CONNECT FAILED -> '.$db_conn->connect_error);
+    die('<p>CONNECT FAILED -> '.$db_conn->connect_error);
 }else{
-    print('Connection Established!');
+    print('<p>Connection Established</p>');
 }
 ?>
