@@ -37,6 +37,7 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
     }
     print('<hr>');
     // Query 2
+    print('<p><strong>Query 2</strong></p>');
     $sql_query = "SELECT * FROM marvelmovies WHERE productionStudio = 'Marvel Studios'";
     // Run the sql on the DB
     $res = mysqli_query($db_conn, $sql_query);
@@ -46,6 +47,7 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
     }
     print('<hr>');
     // Query 3
+    print('<p><strong>Query 3</strong></p>');
     $sql_query = "SELECT * FROM marvelmovies WHERE yearReleased >= 2010";
     // Run the sql on the DB
     $res = mysqli_query($db_conn, $sql_query);
@@ -55,6 +57,7 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
     }
     print('<hr>');
     // Query 4
+    print('<p><strong>Query 4</strong></p>');
     $sql_query = "SELECT * FROM marvelmovies WHERE title LIKE 'X-Men%'";
     // Run the sql on the DB
     $res = mysqli_query($db_conn, $sql_query);
