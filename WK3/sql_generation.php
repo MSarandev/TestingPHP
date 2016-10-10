@@ -30,12 +30,10 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
     // Create the SQL query
     $sql_query = "SELECT * FROM marvelmovies";
     // Run the sql on the DB
-    $res = $db_conn->query($sql_query);
-    // Check if the res is null
-    if ($res->num_rows > 0){
-        echo $res['title'];
-    }else{
-        print('<p>Query returned 0 rows</p>');
+    $res = mysqli_query($db_conn, $sql_query);
+    while($row = $res->fetch_array()){
+        $movie_title = $row['title'];
+        echo '<p>'.$movie_title.'</p>';
     }
     ?>
 </div>
