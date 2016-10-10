@@ -33,7 +33,7 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
     $res = $db_conn->query($sql_query);
     // Check if the res is null
     if ($res->num_rows > 0){
-        echo $res->fetch_row();
+        echo $res;
     }else{
         print('<p>Query returned 0 rows</p>');
     }
