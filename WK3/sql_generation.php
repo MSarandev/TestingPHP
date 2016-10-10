@@ -26,14 +26,14 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
 <div>
     <?php
     // GENERATE SQL QUERIES
-    print('<p>Query 1</p>');
+    print('<p><strong>Query 1</strong></p>');
     // Create the SQL query
     $sql_query = "SELECT * FROM marvelmovies";
     // Run the sql on the DB
     $res = mysqli_query($db_conn, $sql_query);
     while($row = $res->fetch_array()){
         $movie_title = $row['title'];
-        echo '<p>'.$movie_title.'</p>';
+        print('<p>$movie_title</p>');
     }
     ?>
 </div>
