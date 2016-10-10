@@ -26,7 +26,7 @@ include("db_connect.php"); // INCLUDE THE CONNECTION FILE
     $sql_query = "SELECT * FROM marvelmovies";
     // Run the sql on the DB
     $res = mysqli_query($db_conn, $sql_query);
-    vardump($res);
+    var_dump($res);
     // Fetch the result
     $row = mysql_fetch_row($res, MYSQLI_ASSOC);
     print($row);
