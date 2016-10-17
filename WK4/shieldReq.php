@@ -28,7 +28,11 @@
             <br>
             <label>Gender</label>
             <br>
-            <input type="text" width="100" name="gender">
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="alien">Alien</option>
+            </select>
             <br>
             <label>Superpower</label>
             <br>
