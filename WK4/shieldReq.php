@@ -17,7 +17,7 @@
 <body>
     <div id="main_cont">
         <form action="shieldDispl.php" method="post">
-            <label>Welcome to <br>S.H.I.E.L.D.<br>recruitment</label>
+            <label>Welcome to <br><strong>S.H.I.E.L.D.</strong><br>recruitment<br><hr></label>
             <label>Forename</label>
             <br>
             <input type="text" width="100" name="forename">
@@ -26,7 +26,11 @@
             <br>
             <input type="text" width="100" name="surname">
             <br>
+            <label>Gender</label>
+            <br>
             <input type="text" width="100" name="gender">
+            <br>
+            <label>Superpower</label>
             <br>
             <input type="text" width="100" name="power">
             <br>
