@@ -1,3 +1,4 @@
 <?php
-    echo "Hello " + $GET_["planet"];
+    $planet = $GET_["planet"];
+    echo "Hello " .$planet;
 ?>
