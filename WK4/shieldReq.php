@@ -6,11 +6,47 @@
     <style>
         html, body{
             width: 100%;
+            background-image: url("http://cdn.wallpapersafari.com/37/83/3KLSXd.jpg");
+            background-position: top;
         }
         #main_cont{
-            width: 250px;
-            height: 600px;
-            align-content: center;
+            background:rgba(255,255,255,0.7);
+            border: solid #c7c9cc 1px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 500px;
+            height: 100%;
+            text-align: center;
+            float: left;
+            margin-left: 25%;
+            padding-bottom: 20px;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        .btn {
+            background: #3498db;
+            background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+            background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+            background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+            background-image: -o-linear-gradient(top, #3498db, #2980b9);
+            background-image: linear-gradient(to bottom, #3498db, #2980b9);
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #3cb0fd;
+            background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+            background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+            text-decoration: none;
         }
     </style>
 </head>
