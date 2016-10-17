@@ -74,7 +74,7 @@
             <br>
             <input type="text" width="100" name="power">
             <br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="btn">
         </form>
     </div>
 </body>
