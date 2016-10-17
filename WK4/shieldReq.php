@@ -53,15 +53,17 @@
 <body>
     <div id="main_cont">
         <form action="shieldDispl.php" method="post">
-            <label>Welcome to <br><strong>S.H.I.E.L.D.</strong><br>recruitment<br><hr></label>
+            <img src="http://shieldtv.net/wp-content/uploads/2013/06/S.H.I.E.L.D.-logo-6.jpg"/>
+            <br>
+            <label>Welcome to <strong>S.H.I.E.L.D.</strong> recruitment<br><hr></label>
             <label>Forename</label>
             <br>
             <input type="text" width="100" name="forename">
-            <br>
+            <br><hr>
             <label>Surname</label>
             <br>
             <input type="text" width="100" name="surname">
-            <br>
+            <br><hr>
             <label>Gender</label>
             <br>
             <select name="gender">
@@ -69,11 +71,11 @@
                 <option value="female">Female</option>
                 <option value="alien">Alien</option>
             </select>
-            <br>
+            <br><hr>
             <label>Superpower</label>
             <br>
             <input type="text" width="100" name="power">
-            <br>
+            <br><hr>
             <input type="submit" value="Submit" class="btn">
         </form>
     </div>
