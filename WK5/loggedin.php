@@ -4,10 +4,10 @@ $accessLVL = $_COOKIE['access_level_cookie'];
 
 echo "<p>Access Panel</p>";
 
-disInfo('access_level_cookie');
+disInfo($accessLVL);
 
 function disInfo($accessLVL){
-    if($accessLVL == 'standard_user'){
+    if($accessLVL == 'standarduser'){
         echo "<p style = 'background-color: lightgreen;'>Access Level: Standard User</p>";
 
     }elseif ($accessLVL == 'root'){
