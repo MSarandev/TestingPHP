@@ -4,6 +4,8 @@ $accessLVL = $_COOKIE['access_level_cookie'];
 
 echo "<p>Access Panel</p>";
 
+echo $accessLVL;
+
 function disInfo($accessLVL){
     if($accessLVL == 'standarduser'){
         echo "<p>1</p>";
