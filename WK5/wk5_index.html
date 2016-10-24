@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <style>
+        body, html{
+            margin: 0 auto;
+            height: 800px;
+        }
+        #cont{
+            margin: 0 auto;
+            text-align: center;
+            width: 50%;
+            height: 200px;
+        }
+        #login_form1{
+            border: 1px solid black;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: aliceblue;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="cont">
+    <form id="login_form1" action="checklogin.php">
+        <h1>Login Form</h1>
+        <hr>
+        <label>Username</label>
+        <input type="text" name="txt_user">
+        <br>
+        <label>Password</label>
+        <input type="password" name="txt_pass">
+        <br>
+        <input type="submit" value="Login">
+    </form>
+</div>
+</body>
+</html>
