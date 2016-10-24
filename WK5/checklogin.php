@@ -7,5 +7,5 @@ if($user == "username" && $pass == "password"){
     setcookie('access_level_cookie', 'standard_user');
 }
 
-header('Location : loggedin.php');
+header('Location : logedin.php');
 ?>
