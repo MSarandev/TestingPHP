@@ -8,10 +8,10 @@ disInfo($accessLVL);
 
 function disInfo($accessLVL){
     if($accessLVL == 'standarduser'){
-        echo "<p>1</p>"
+        echo "<p>1</p>";
 
     }elseif ($accessLVL == 'root'){
-        echo "<p>root</p>"
+        echo "<p>root</p>";
     }
 }
 ?>
