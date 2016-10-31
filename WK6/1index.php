@@ -35,5 +35,5 @@ foreach ($rules as $action => $rule) {
 //include(INCLUDE_DIR . '/404.php');
 */
 
-header( "Location: ./scripts/home.php" );
+header( "Location: " .dirname(__FILE__)."/scripts/home.php" );
 ?>
