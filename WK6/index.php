@@ -3,7 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-define('INCLUDE_DIR', dirname(__FILE__) . '/inc/');
+define('INCLUDE_DIR', dirname(__FILE__) . '/scripts/');
 $rules = array(
     //
     //main pages
@@ -35,5 +35,5 @@ foreach ($rules as $action => $rule) {
     }
 }
 // nothing is found so handle the 404 error
-include(INCLUDE_DIR . '404.php');
+include(INCLUDE_DIR . '/404.php');
 ?>
