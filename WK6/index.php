@@ -19,10 +19,10 @@ $rules = array(
     //
     'home' => "/home"
 );
-$uri = rtrim(dirname($_SERVER["SCRIPT_NAME"]), '/');
+$uri = rtrim(dirname($_SERVER["SCRIPT_NAME"]), '/??');
 $uri = '/' . trim(str_replace($uri,
         ''
-        , $_SERVER['REQUEST_URI']), '/');
+        , $_SERVER['REQUEST_URI']), '/?1');
 $uri = urldecode($uri);
 foreach ($rules as $action => $rule) {
     if (preg_match('~^' . $rule . '$~i', $uri, $params)) {
