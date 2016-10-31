@@ -3,34 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>Main DIR</title>
+    <style>
+        body, html{
+            margin: 0 auto;
+        }
+        #main_box{
+            text-align: center;
+            border: 0.5px solid black;
+            background-color: rgba(0, 79, 255, 0.07);
+            width: 20%;
+            margin: 0 auto;
+        }
+        #menu_div{
+            text-align: left;
+        }
+        li{
+            width: 90%;
+            text-decoration: none;
+            list-style: none;
+            margin-bottom: 30px;
+            margin-left: 0px;
+        }
+        .btn {
+            display: block;
+            font-family: Courier New;
+            color: #ffffff;
+            font-size: 15px;
+            background: #0088ff;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #2600ff;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
 <!-- Container element -->
 <div class="parallax">
-    <div style="text-align: center; border: 1px solid black; border-radius: 20px;">
-        <h1 style="color:white;">Branch 1</h1>
+    <div id="main_box">
+        <h1 style="color:black;">MAIN BRANCH</h1>
         <img src="https://d3nmt5vlzunoa1.cloudfront.net/phpstorm/files/2015/12/PhpStorm_400x400_Twitter_logo_white.png"
              width="50"
              height="50"/>
         <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"
              width="50"
              height="50"/>
-    </div>
-    <!-- MENU -->
-    <div id="menu_div">
-        <p><strong>PHP Files Dir</strong></p>
-        <ul>
-            <li><a href="GroupWork/main.html">Project Dev</a></li>
-        </ul>
-        <br>
-        <ul>
-            <li><a href="WK5/wk5_index.html">Week 5 - Lab 1 Cookie Hijack</a></li>
-            <li><a href="WK4/helloSelector.php">Week 4 - Lab 1 (planets)</a></li>
-            <li><a href="WK4/shieldReq.php">Week 4 - Lab 1 (SHIELD)</a></li>
-            <li><a href="WK3/adminer.php">ADMINER LOGIN</a></li>
-            <li><a href="WK3/sql_generation.php">Week 3 Lab 1 - SQL Generation</a></li>
-            <li><a href="main.php">Week 2 Lab 1 - Initial</a></li>
-        </ul>
+        <!-- MENU -->
+        <div id="menu_div">
+            <br>
+            <p style="text-align: center;"><strong>PHP Files Dir</strong></p>
+            <ul>
+                <li><a class="btn" href="GroupWork/main.html">Project Dev</a></li>
+            </ul>
+            <br>
+            <ul>
+                <li><a class="btn" href="WK5/wk5_index.html">Week 5 - Lab 1 Cookie Hijack</a></li>
+                <li><a class="btn" href="WK4/helloSelector.php">Week 4 - Lab 1 (planets)</a></li>
+                <li><a class="btn" href="WK4/shieldReq.php">Week 4 - Lab 1 (SHIELD)</a></li>
+                <li><a class="btn" href="WK3/adminer.php">ADMINER LOGIN</a></li>
+                <li><a class="btn" href="WK3/sql_generation.php">Week 3 Lab 1 - SQL Generation</a></li>
+                <li><a class="btn" href="main.php">Week 2 Lab 1 - Initial</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 </body>
