@@ -33,3 +33,18 @@ foreach ($rules as $action => $rule) {
 // nothing is found so handle the 404 error
 //include(INCLUDE_DIR . '/404.php');
 ?>
+
+<?
+session_start();
+?>
+
+<?php
+include("scripts/header.php");
+echo "
+<main>
+<p>Welcome to the blog of Charles Babbage! In this blog you will
+see all of my insights and wonderful things</p>
+</main>
+";
+include("scripts/footer.php");
+?>
