@@ -6,11 +6,11 @@
 </head>
 <body>
 <header>
-    <h1>The Blog of Charles Babbage</h1>
+    <h1>The Blog of Charles Babbage!</h1>
     <nav>
         <ul>
-            <li><a href="./">Home Page</a></li>
-            <li><a href="blog.php">My Blog</a></li>
+            <li><a href="/">Home Page</a></li>
+            <li><a href="test_con.txt">My Blog</a></li>
             <li><a href="about.php">About Me</a></li>
             <li><a href="contactus">Contact Me</a></li>
             <?php
