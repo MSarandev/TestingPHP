@@ -8,6 +8,10 @@
  * Time: 13:38
  */
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 define('DB_SERVER', 'eu-cdbr-azure-north-e.cloudapp.net');
 define('DB_USER', 'b214ab9683081c');
 define('DB_PASS', 'c0fcd14a');
