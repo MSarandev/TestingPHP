@@ -1,5 +1,5 @@
 <?php
 
-    echo "<p>This</p>";
+    echo "<h1>HOME</h1>";
 
 ?>
