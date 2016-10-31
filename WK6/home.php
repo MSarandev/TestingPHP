@@ -18,8 +18,8 @@ session_start();
             <nav>
                 <ul>
                     <li><a href="./">Home Page</a></li>
-                    <li><a href="blog">My Blog</a></li>
-                    <li><a href="about">About Me</a></li>
+                    <li><a href="blog.php">My Blog</a></li>
+                    <li><a href="scripts/about.php">About Me</a></li>
                     <li><a href="contactus">Contact Me</a></li>
                     <?php
                         ini_set('display_errors', 1);
