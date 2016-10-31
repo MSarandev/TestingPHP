@@ -1,5 +1,4 @@
 <?php
-
 $user = $_POST["txt_user"];
 $pass = $_POST["txt_pass"];
 
