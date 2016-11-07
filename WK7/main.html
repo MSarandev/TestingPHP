@@ -39,12 +39,11 @@
                             parseFloat(markers[i].getAttribute("lat")),
                             parseFloat(markers[i].getAttribute("lng")));
 
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: point
+                    });
                 }
-
-                var marker = new google.maps.Marker({
-                    map: map,
-                    position: point
-                });
             });
         }
     </script>
