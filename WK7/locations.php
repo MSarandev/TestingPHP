@@ -1,10 +1,10 @@
 <?php
 //DEBUG HEADER
-print('<p>ERRORS (if any):</p>');
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-print('<hr>');
+//print('<p>ERRORS (if any):</p>');
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1);
+//error_reporting(E_ALL);
+//print('<hr>');
 
 $db = new mysqli(
     "eu-cdbr-azure-north-e.cloudapp.net",
