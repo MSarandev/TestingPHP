@@ -58,13 +58,16 @@
                             parseFloat(markers[i].getAttribute("lat")),
                             parseFloat(markers[i].getAttribute("lng")));
                     var type = markers[i].getAttribute("type");
+                    var name = markers[i].getAttribute("name");
+                    var html = "<b>" + name + "</b> <br/>" + type;
                     var icon = customIcons[type] || {};
                     var marker = new google.maps.Marker({
                         map: map,
                         position: point,
                         icon: icon.icon
                     });
-                    //bindInfoWindow(marker, map, infoWindow, html);
+                    bindInfoWindow(marker, map, infoWindow, html);
+
                 }
             });
         }
