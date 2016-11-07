@@ -45,7 +45,7 @@ while ($row = $result->fetch_array()){
 
 
 $result->close();
-$db_conn->close();
+$db->close();
 
 echo $dom->saveXML();
 
